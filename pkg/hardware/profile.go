@@ -37,10 +37,10 @@ func init() {
 	profiles[DefaultProfileName] = Profile{
 		Name: DefaultProfileName,
 		RootDeviceHints: metal3v1alpha1.RootDeviceHints{
-			DeviceName: "/dev/sda",
+			DeviceName: "/dev/vda",
 		},
 		RootGB:  4,
-		LocalGB: 12,
+		LocalGB: 11,
 		CPUArch: "x86_64",
 	}
 
